@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  // The login page is a simple form that takes in the user's email and password. The form is submitted to the server
+  
   <div class="login-container">
     <div class="logo-info">
       <img class="logo" src="../images/logo_transparent.png" alt="">
@@ -32,7 +32,7 @@
 
   </div>
   </div>
-  //javascript file for the login page
+
   <script src="../js/loginpage.js"></script>
 </body>
 
