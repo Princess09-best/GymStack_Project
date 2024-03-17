@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    // css and javascript templates
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Register- Task Management System</title>
@@ -16,6 +17,7 @@
       <h2 id="welcome-back">Register Here</h2>
 
       <p class="error-msg" id="error-msg"></p>
+      //form to collect data from user for registration and send to server if validdated. user can either sign up as a manager or a customer
 
 
       <form class="form-background" method="POST" onsubmit="validateForm(event)" id="register-form" name="register-form" >
@@ -41,7 +43,8 @@
 
       </form>
     </div>
-
+    
+/*javascript file for the registration page, uses regular expressions to validate data entered into the form,name , password and phone number are validated*/
     <script>
         function validateForm(event) {
             event.preventDefault();
