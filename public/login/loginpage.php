@@ -9,6 +9,7 @@
 </head>
 
 <body>
+  // The login page is a simple form that takes in the user's email and password. The form is submitted to the server
   <div class="login-container">
     <div class="logo-info">
       <img class="logo" src="../images/logo_transparent.png" alt="">
@@ -17,6 +18,7 @@
 
     <h2 id="welcome-back">Welcome Back</h2>
     <p id="no-account">Don't have an account yet? <a id="register" href="#">Register</a></p>
+    // The form is submitted to the server after the user enters their email and passwordand it is validated
     <form method="POST" onsubmit="return validateLogin()" id="login-form" name="login-form">
       <div>
         <input type="text" id="email" name="email" placeholder="email address" required />
@@ -30,6 +32,7 @@
 
   </div>
   </div>
+  //javascript file for the login page
   <script src="../js/loginpage.js"></script>
 </body>
 
